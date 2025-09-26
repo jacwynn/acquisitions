@@ -111,3 +111,9 @@
 {"level":"info","message":"User jacwynnjr@gmail.com created successfully","service":"acquisition-api"}
 {"level":"info","message":"User registered successfully: jacwynnjr@gmail.com","service":"acquisition-api"}
 {"level":"info","message":"::1 - - [26/Sep/2025:21:15:50 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 108 \"-\" \"PostmanRuntime/7.33.0\"","service":"acquisition-api"}
+{"level":"info","message":"::1 - - [26/Sep/2025:22:26:26 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 31 \"-\" \"PostmanRuntime/7.33.0\"","service":"acquisition-api"}
+{"level":"info","message":"User jacwynnjr@gmail.com authenticated successfully","service":"acquisition-api"}
+{"level":"info","message":"User signed in successfully: jacwynnjr@gmail.com","service":"acquisition-api"}
+{"level":"info","message":"::1 - - [26/Sep/2025:22:28:54 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 120 \"-\" \"PostmanRuntime/7.33.0\"","service":"acquisition-api"}
+{"level":"info","message":"User signed out successfully","service":"acquisition-api"}
+{"level":"info","message":"::1 - - [26/Sep/2025:22:29:03 +0000] \"POST /api/auth/sign-out HTTP/1.1\" 200 42 \"-\" \"PostmanRuntime/7.33.0\"","service":"acquisition-api"}
