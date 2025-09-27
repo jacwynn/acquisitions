@@ -117,3 +117,18 @@
 {"level":"info","message":"::1 - - [26/Sep/2025:22:28:54 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 120 \"-\" \"PostmanRuntime/7.33.0\"","service":"acquisition-api"}
 {"level":"info","message":"User signed out successfully","service":"acquisition-api"}
 {"level":"info","message":"::1 - - [26/Sep/2025:22:29:03 +0000] \"POST /api/auth/sign-out HTTP/1.1\" 200 42 \"-\" \"PostmanRuntime/7.33.0\"","service":"acquisition-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisition-api","userAgent":"PostmanRuntime/7.33.0"}
+{"level":"info","message":"::1 - - [27/Sep/2025:03:05:48 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.33.0\"","service":"acquisition-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisition-api","userAgent":"PostmanRuntime/7.33.0"}
+{"level":"info","message":"::1 - - [27/Sep/2025:03:07:04 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.33.0\"","service":"acquisition-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/api","service":"acquisition-api","userAgent":"PostmanRuntime/7.33.0"}
+{"level":"info","message":"::1 - - [27/Sep/2025:03:07:10 +0000] \"GET /api HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.33.0\"","service":"acquisition-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/","service":"acquisition-api","userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36"}
+{"level":"info","message":"::1 - - [27/Sep/2025:03:07:23 +0000] \"GET / HTTP/1.1\" 403 68 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36\"","service":"acquisition-api"}
+{"level":"info","message":"::1 - - [27/Sep/2025:03:15:10 +0000] \"GET /api HTTP/1.1\" 200 44 \"-\" \"PostmanRuntime/7.33.0\"","service":"acquisition-api"}
+{"level":"info","message":"::1 - - [27/Sep/2025:03:15:34 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"PostmanRuntime/7.33.0\"","service":"acquisition-api"}
+{"level":"info","message":"::1 - - [27/Sep/2025:03:15:55 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"PostmanRuntime/7.33.0\"","service":"acquisition-api"}
+{"level":"info","message":"::1 - - [27/Sep/2025:03:15:56 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"PostmanRuntime/7.33.0\"","service":"acquisition-api"}
+{"level":"info","message":"::1 - - [27/Sep/2025:03:15:56 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"PostmanRuntime/7.33.0\"","service":"acquisition-api"}
+{"ip":"::1","level":"warn","message":"Rate limit exceeded","method":"GET","path":"/health","service":"acquisition-api","userAgent":"PostmanRuntime/7.33.0"}
+{"level":"info","message":"::1 - - [27/Sep/2025:03:15:57 +0000] \"GET /health HTTP/1.1\" 403 51 \"-\" \"PostmanRuntime/7.33.0\"","service":"acquisition-api"}
